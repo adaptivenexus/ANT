@@ -25,6 +25,8 @@ export default {
         "primary-gradient-horizontal-reverse":
           "var(--primary-gradient-horizontal-reverse)",
         "secondary-gradient": "var(--secondary-gradient)",
+        "about-box-shadow": "var(--about-box-shadow)",
+        "border-gradient-about": "var(--border-gradient-about)",
       },
     },
   },

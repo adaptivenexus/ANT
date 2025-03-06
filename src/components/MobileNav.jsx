@@ -4,6 +4,7 @@ import {
   FaBook,
   FaHome,
   FaInfoCircle,
+  FaNewspaper,
   FaQuestion,
   FaTags,
 } from "react-icons/fa";
@@ -32,7 +33,7 @@ const MobileNav = ({ isNavOpen, setIsNavOpen }) => {
           className="flex gap-2 items-center"
         >
           <FaInfoCircle className="text-primary" />
-          <Link href="/" className="text-xl">
+          <Link href="/#about" className="text-xl">
             About us
           </Link>
         </li>
@@ -42,7 +43,7 @@ const MobileNav = ({ isNavOpen, setIsNavOpen }) => {
           className="flex gap-2 items-center"
         >
           <FaBook className="text-primary" />
-          <Link href="/" className="text-xl">
+          <Link href="/services" className="text-xl">
             Services
           </Link>
         </li>
@@ -52,8 +53,17 @@ const MobileNav = ({ isNavOpen, setIsNavOpen }) => {
           className="flex gap-2 items-center"
         >
           <FaQuestion className="text-primary" />
-          <Link href="/" className="text-xl">
+          <Link href="/contact-us" className="text-xl">
             Contact us
+          </Link>
+        </li>
+        <li
+          onClick={() => setIsNavOpen(false)}
+          className="flex gap-2 items-center"
+        >
+          <FaNewspaper className="text-primary" />
+          <Link href="/blogs" className="text-xl">
+            Blogs
           </Link>
         </li>
       </ul>

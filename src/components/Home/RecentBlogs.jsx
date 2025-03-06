@@ -6,7 +6,7 @@ import CarouselBlogsHome from "./CarouselBlogsHome";
 async function getData() {
   return await client.fetch(
     groq`*[_type == "post"]
-      | order(_createdAt desc)[0...5]{
+      | order(publishedAt desc)[0...5]{
     _id,
     title,
     author->{
@@ -31,7 +31,7 @@ const RecentBlogs = async () => {
   const topBlogs = await blogs.slice(0, 3);
   return (
     <div className="py-24">
-      <div className="wrapper space-y-8">
+      <div className="xl:max-w-[1600px] px-4 mx-auto space-y-8">
         <div className="text-center space-y-3">
           <p className="heading-top text-primary">Blogs</p>
           <h3 className="heading-3 text-foreground">Insights & Ideas</h3>

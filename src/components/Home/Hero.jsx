@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <div
@@ -15,18 +17,18 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex gap-2">
-          <button
-            type="button"
+          <Link
+            href={"/services"}
             className="py-3 px-2 md:px-5 bg-primary rounded-md hover:opacity-80 transition-all duration-300"
           >
             Explore Our Services
-          </button>
-          <button
-            type="button"
-            className="py-3 px-2 md:px-5 border-primary border-2 rounded-md hover:opacity-80 transition-all duration-300"
+          </Link>
+          <Link
+            href={"/contact-us"}
+            className="py-3 block px-2 md:px-5 border-primary border-2 rounded-md hover:opacity-80 transition-all duration-300"
           >
             Get a Consultation
-          </button>
+          </Link>
         </div>
       </div>
     </div>

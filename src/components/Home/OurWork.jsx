@@ -17,8 +17,12 @@ const OurWork = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-accent-secondary p-4 md:p-14 rounded-lg md:rounded-[70px]">
           {/* Cards */}
           <div className="bg-primary-gradient-horizontal-reverse p-4 rounded-[44px]">
-            <div className="bg-white rounded-[44px] overflow-hidden ">
-              <div>
+            <a
+              target="_blank"
+              href={"https://bluesky-innovate.com/"}
+              className="block bg-white rounded-[44px] overflow-hidden h-full"
+            >
+              <div className="border-b border-[#E6E6E6]">
                 <Image
                   src={"/Project1.png"}
                   height={298}
@@ -28,19 +32,23 @@ const OurWork = () => {
               </div>
               <div className="p-4 space-y-2">
                 <h5 className="text-black heading-5">
-                  Custom Website Development for Online Store
+                  Bluesky Innovate Website
                 </h5>
                 <p className="text-[#535463] body-text">
-                  Designed and developed a fully responsive website for an
-                  e-commerce brand, enhancing user experience and driving a 20%
-                  increase in online sales.
+                  Redesigned the Bluesky Innovate website with a modern and
+                  user-friendly interface, enhancing the user experience and
+                  increasing site engagement by 50%.
                 </p>
               </div>
-            </div>
+            </a>
           </div>
           <div className="bg-primary-gradient-horizontal p-4 rounded-[44px]">
-            <div className="bg-white rounded-[44px] overflow-hidden h-full">
-              <div>
+            <a
+              target="_blank"
+              href={"https://www.sc.ai/"}
+              className="block bg-white rounded-[44px] overflow-hidden h-full"
+            >
+              <div className="border-b border-[#E6E6E6]">
                 <Image
                   src={"/Project2.png"}
                   height={298}
@@ -50,15 +58,15 @@ const OurWork = () => {
               </div>
               <div className="p-4 space-y-2">
                 <h5 className="text-black heading-5">
-                  Responsive Portfolio Website Design
+                  SCAI: Custom Product Development
                 </h5>
                 <p className="text-[#535463] body-text">
-                  Created a sleek, mobile-friendly portfolio website for a
-                  creative professional, showcasing their work and increasing
-                  client inquiries by 40%.
+                  The Product SCAI is a cutting-edge Document Management
+                  solution that leverages advanced AI technology to streamline
+                  data extraction, categorization, and retrieval processes.
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

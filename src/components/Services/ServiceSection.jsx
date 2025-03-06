@@ -3,7 +3,7 @@ import { ThemeContext } from "@/providers/ThemeProvider";
 import Image from "next/image";
 import { useContext } from "react";
 
-const ServiceSection = ({ image, orientation, title, description }) => {
+const ServiceSection = ({ image, orientation, title, list }) => {
   const { theme, setTheme } = useContext(ThemeContext);
   return (
     <div
@@ -19,7 +19,16 @@ const ServiceSection = ({ image, orientation, title, description }) => {
         >
           {title}
         </h6>
-        <p className="subtitle-text text-secondary-foreground">{description}</p>
+        <ul>
+          {list.map((item, index) => (
+            <li
+              key={index}
+              className="subtitle-text text-secondary-foreground list-disc ml-4"
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="flex-1">
         <Image

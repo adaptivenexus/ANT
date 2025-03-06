@@ -20,7 +20,9 @@ const Header = () => {
     >
       <div className="mx-auto bg-[#6E15FD] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 flex items-center justify-between  w-full max-w-[1600px] top-0 py-5 px-11 rounded-b-[60px] ">
         <div className="flex-1">
-          <h2 className="heading-4 md:heading-3">ANT.</h2>
+          <Link href="/" className="heading-4 md:heading-3 block">
+            ANT.
+          </Link>
         </div>
         <div className="flex items-center justify-center gap-8 ">
           <ul className="md:flex items-center gap-4 lg:gap-6 subtitle-text hidden">

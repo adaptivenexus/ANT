@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CaseStudies = () => {
   return (
-    <div className="bg-accent-primary py-32">
+    <div className="bg-accent-primary py-32" id="casestudies">
       <div className="wrapper space-y-10">
         <div className="text-center space-y-3">
           <p className="heading-top text-primary">Case Studies</p>

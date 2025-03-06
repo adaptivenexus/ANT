@@ -5,28 +5,27 @@ const FAQ = () => {
     {
       question: "What are the benefits of using our AI solutions?",
       answer:
-        "Our AI solutions are tailored for businesses across various industries, including e-commerce, healthcare, finance, marketing, and logistics. Whether you're a small startup or a large enterprise, we design custom solutions to meet your unique needs and help you achieve measurable results.",
+        "Our AI solutions offer enhanced efficiency, cost savings, improved decision-making, and competitive advantage by leveraging data-driven insights and automation.",
     },
     {
       question: "How long does it take to implement an AI solution?",
       answer:
-        "Our AI solutions are tailored for businesses across various industries, including e-commerce, healthcare, finance, marketing, and logistics. Whether you're a small startup or a large enterprise, we design custom solutions to meet your unique needs and help you achieve measurable results.",
+        "The implementation time varies depending on the complexity of the project. Typically, it can take anywhere from a few weeks to several months.",
     },
     {
-      question:
-        "Do you provide ongoing support after implementing AI solutions?",
+      question: "Do you provide ongoing support after implementing AI solutions?",
       answer:
-        "Our AI solutions are tailored for businesses across various industries, including e-commerce, healthcare, finance, marketing, and logistics. Whether you're a small startup or a large enterprise, we design custom solutions to meet your unique needs and help you achieve measurable results.",
+        "Yes, we offer continuous support and maintenance to ensure your AI solutions remain up-to-date and perform optimally.",
     },
     {
       question: "Can your AI solutions be integrated with existing systems?",
       answer:
-        "Our AI solutions are tailored for businesses across various industries, including e-commerce, healthcare, finance, marketing, and logistics. Whether you're a small startup or a large enterprise, we design custom solutions to meet your unique needs and help you achieve measurable results.",
+        "Absolutely, our AI solutions are designed to seamlessly integrate with your current systems, ensuring minimal disruption and maximum compatibility.",
     },
     {
       question: "How do you ensure the security and privacy of my data?",
       answer:
-        "Our AI solutions are tailored for businesses across various industries, including e-commerce, healthcare, finance, marketing, and logistics. Whether you're a small startup or a large enterprise, we design custom solutions to meet your unique needs and help you achieve measurable results.",
+        "We adhere to strict data security protocols and use advanced encryption technologies to ensure the confidentiality and integrity of your data.",
     },
   ];
   return (

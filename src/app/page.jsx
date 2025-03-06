@@ -22,7 +22,7 @@ const Home = () => {
         <h2>Innovative</h2>
         <h2>Reliable</h2>
         <h2>Secure</h2>
-        <h2>Affordable</h2>
+        <h2>Scalable</h2>
       </div>
 
       <About />
@@ -33,7 +33,7 @@ const Home = () => {
         <div className="h-[1px] max-w-[1340px] mx-auto bg-[#535463]"></div>
         <div className="flex flex-col items-center gap-4 md:flex-row justify-between lg:heading-2 w-full max-w-[1600px] px-4 mx-auto py-10">
           <div className="text-center space-y-1">
-            <p className="heading-1">50+</p>
+            <p className="heading-1">3+</p>
             <p className="heading-4 text-secondary-foreground">
               Completed projects
             </p>
@@ -42,7 +42,7 @@ const Home = () => {
           <div className="h-[60px] w-[1px] bg-[#535463] hidden md:block"></div>
 
           <div className="text-center space-y-1">
-            <p className="heading-1">13+</p>
+            <p className="heading-1">2+</p>
             <p className="heading-4 text-secondary-foreground">
               Years Of Experience
             </p>
@@ -51,21 +51,21 @@ const Home = () => {
           <div className="h-[60px] w-[1px] bg-[#535463] hidden md:block"></div>
 
           <div className="text-center space-y-1">
-            <p className="heading-1">30+</p>
+            <p className="heading-1">10+</p>
             <p className="heading-4 text-secondary-foreground">Team Members</p>
           </div>
 
           <div className="h-[60px] w-[1px] bg-[#535463] hidden md:block"></div>
 
           <div className="text-center space-y-1">
-            <p className="heading-1">40+</p>
+            <p className="heading-1">2+</p>
             <p className="heading-4 text-secondary-foreground">
               Satisfied Clients
             </p>
           </div>
         </div>
       </div>
-      <CaseStudies />
+      {/* <CaseStudies /> */}
       <RecentBlogs />
       <Testimonials />
       <FAQ />
