@@ -18,7 +18,7 @@ const Header = () => {
         pathname === "/" ? "fixed top-0" : "sticky top-0"
       } top-0 z-20 w-full`}
     >
-      <div className="mx-auto bg-[#6E15FD] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 flex items-center justify-between  w-full max-w-[1600px] top-0 py-5 px-11 rounded-b-[60px] ">
+      <div className="mx-auto bg-[#6E15FD] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 flex items-center justify-between  w-full max-w-[1280px] 2xl:max-w-[1600px] top-0 py-5 px-11 rounded-b-[60px] ">
         <div className="flex-1">
           <Link href="/" className="heading-4 md:heading-3 block">
             ANT.

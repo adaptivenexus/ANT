@@ -17,7 +17,7 @@ const Home = () => {
         <VideoTablet />
       </div>
 
-      <div className="flex flex-col gap-4 md:flex-row justify-between heading-3 lg:heading-2 w-full max-w-[1600px] px-4 mx-auto">
+      <div className="flex flex-col gap-4 md:flex-row justify-between heading-4 lg:heading-3 xl:heading-2 w-full max-w-[1280px] 2xl:max-w-[1600px] px-4 mx-auto">
         <h2>Trusted</h2>
         <h2>Innovative</h2>
         <h2>Reliable</h2>
@@ -30,8 +30,8 @@ const Home = () => {
       <WhyChooseUs />
       <OurWork />
       <div>
-        <div className="h-[1px] max-w-[1340px] mx-auto bg-[#535463]"></div>
-        <div className="flex flex-col items-center gap-4 md:flex-row justify-between lg:heading-2 w-full max-w-[1600px] px-4 mx-auto py-10">
+        <div className="h-[1px] max-w-[1280px] 2xl:max-w-[1600px]  mx-auto bg-[#535463]"></div>
+        <div className="flex flex-col items-center gap-4 md:flex-row justify-between lg:heading-2 w-full max-w-[1280px] 2xl:max-w-[1600px] px-4 mx-auto py-10">
           <div className="text-center space-y-1">
             <p className="heading-1">3+</p>
             <p className="heading-4 text-secondary-foreground">
