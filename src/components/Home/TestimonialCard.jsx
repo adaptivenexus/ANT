@@ -13,7 +13,7 @@ const TestimonialCard = ({ name, url, review, role, firm }) => {
         <div className="space-y-1">
           <h5 className="body-text md:subtitle-text text-white">{name}</h5>
           <p className="body-text text-white/70">
-            {role} at {firm}
+            {role}, {firm}
           </p>
         </div>
         <div>

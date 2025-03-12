@@ -222,12 +222,6 @@ const Footer = () => {
                 <p className="text-[#95909B] subtitle-text">
                   © 2025 — Copyright
                 </p>
-                <Link
-                  href={"#hero"}
-                  className="flex text-white p-2 border-[#95909B] border w-max rounded-full"
-                >
-                  <IoIosArrowRoundUp size={40} />
-                </Link>
               </div>
             </div>
           </div>

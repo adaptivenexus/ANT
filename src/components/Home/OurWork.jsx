@@ -1,4 +1,6 @@
 import Image from "next/image";
+import CarouselOurWork from "./CarouselOurWork";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const OurWork = () => {
   return (
@@ -14,9 +16,9 @@ const OurWork = () => {
             custom solutions in driving business success
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-accent-secondary p-4 md:p-14 rounded-lg md:rounded-[70px]">
+        <div className="gap-5 bg-accent-secondary py-4 md:py-14 px-4 rounded-3xl md:rounded-[70px] flex items-center">
           {/* Cards */}
-          <div className="bg-primary-gradient-horizontal-reverse p-4 rounded-[44px]">
+          {/* <div className="bg-primary-gradient-horizontal-reverse p-4 rounded-[44px]">
             <a
               target="_blank"
               href={"https://bluesky-innovate.com/"}
@@ -67,7 +69,14 @@ const OurWork = () => {
                 </p>
               </div>
             </a>
-          </div>
+          </div> */}
+          <button className="prev-btn-ourWork-swiper hidden md:block">
+            <FaChevronLeft className="text-primary" size={40} />
+          </button>
+          <CarouselOurWork />
+          <button className="next-btn-ourWork-swiper hidden md:block">
+            <FaChevronRight className="text-primary" size={40} />
+          </button>
         </div>
       </div>
     </div>

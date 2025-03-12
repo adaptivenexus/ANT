@@ -31,7 +31,7 @@ export default () => {
     },
     {
       name: "Amir Khan",
-      role: "Director",
+      role: "Founder",
       firm: "Blue-sky innovative",
       url: "https://bluesky-innovate.com/",
 

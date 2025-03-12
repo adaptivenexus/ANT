@@ -58,7 +58,7 @@ const Home = () => {
           <div className="h-[60px] w-[1px] bg-[#535463] hidden md:block"></div>
 
           <div className="text-center space-y-1">
-            <p className="heading-1">2+</p>
+            <p className="heading-1">3+</p>
             <p className="heading-4 text-secondary-foreground">
               Satisfied Clients
             </p>

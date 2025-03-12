@@ -29,8 +29,8 @@ const WhyChooseUs = () => {
                   </h4>
                 </div>
                 <p className="subtitle-text text-secondary-foreground">
-                  We invest heavily in building cutting-edge AI solutions that
-                  drive industry transformation.
+                  We excel in building cutting-edge AI solutions that drive
+                  industry transformation.
                 </p>
               </div>
               <div className="h-[1px] w-full bg-[#BCBABE]"></div>
