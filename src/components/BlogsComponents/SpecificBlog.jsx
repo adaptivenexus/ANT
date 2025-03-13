@@ -20,7 +20,7 @@ const PortableTextComponent = {
 
 const SpecificBlog = async ({ blogs }) => {
   return (
-    <div className=" xl:max-w-[1600px] px-4 mx-auto flex flex-col mt-8 w-full  max-lg:px-10 min-h-screen">
+    <div className="max-w-[1280px] 2xl:max-w-[1600px] px-4 mx-auto flex flex-col mt-8 w-full  max-lg:px-10 min-h-screen">
       <div className="mb-4 space-y-3">
         <h1 className="text-xl font-semibold text-start text-primary">Blog</h1>
         <div className="flex items-center gap-5">
