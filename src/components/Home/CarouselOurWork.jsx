@@ -43,7 +43,7 @@ export default () => {
       description:
         "The Product SCAI is a cutting-edge Document Management solution that leverages advanced AI technology to streamline data extraction, categorization, and retrieval processes.",
       image: "/Project2.png",
-      url: "/workInProgressPage",
+      url: "/work-in-progress",
       gradientAlignment: "right",
     },
   ];

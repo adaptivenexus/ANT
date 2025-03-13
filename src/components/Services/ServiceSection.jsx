@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 const ServiceSection = ({ image, orientation, title, list }) => {
   const { theme } = useContext(ThemeContext);
 
-  const variants = {
+  const imageVariants = {
     hidden: {
-      x: -100,
+      x: orientation === "left" ? 100 : -100,
       opacity: 0,
     },
     visible: {
@@ -17,6 +17,22 @@ const ServiceSection = ({ image, orientation, title, list }) => {
       opacity: 1,
       transition: {
         duration: 0.8,
+        ease: "easeOut",
+      },
+    },
+  };
+
+  const contentVariants = {
+    hidden: {
+      x: orientation === "left" ? 100 : -100,
+      opacity: 0,
+    },
+    visible: {
+      x: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.8,
+        delay: 0.3,
         ease: "easeOut",
       },
     },
@@ -33,7 +49,7 @@ const ServiceSection = ({ image, orientation, title, list }) => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
-        variants={variants}
+        variants={contentVariants}
       >
         <h6
           className={`heading-4 ${
@@ -58,7 +74,7 @@ const ServiceSection = ({ image, orientation, title, list }) => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
-        variants={variants}
+        variants={imageVariants}
       >
         <Image
           src={image}
