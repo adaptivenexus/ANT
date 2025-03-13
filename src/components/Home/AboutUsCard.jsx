@@ -14,7 +14,7 @@ const AboutUsCard = ({ name, description, image }) => {
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => setIsHovered(false)}
         whileHover={{ scale: 1.02 }}
-        transition={{ type: "spring", stiffness: 300, damping: 25 }}
+        transition={{ type: "spring", stiffness: 100, damping: 25 }}
       >
         <motion.div
           className="p-6 rounded-full bg-primary"
@@ -47,8 +47,8 @@ const AboutUsCard = ({ name, description, image }) => {
           initial={{ height: 0, opacity: 0, marginTop: 0, marginBottom: 0 }}
           transition={{
             type: "spring",
-            stiffness: 400,
-            damping: 30,
+            stiffness: 300,
+            damping: 40,
             opacity: { duration: 0.2 },
           }}
         >

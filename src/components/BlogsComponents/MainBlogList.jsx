@@ -36,7 +36,7 @@ const MainBlogList = async () => {
   const restBlogs = await blogs.slice(1, blogs.length);
 
   return (
-    <div className="min-h-screen xl:max-w-[1600px] px-4 mx-auto py-8 space-y-10">
+    <div className="min-h-screen max-w-[1280px] 2xl:max-w-[1600px] px-4 mx-auto py-8 space-y-10">
       <h5 className=" heading-4 text-center">Explore Blogs</h5>
 
       <div className="flex items-center gap-2 md:gap-6 w-full">
@@ -52,27 +52,27 @@ const MainBlogList = async () => {
           </div>
           <div className="flex-1 flex flex-col justify-between min-h-full gap-4">
             <div className="space-y-5">
-              <h4 className="heading-5 md:heading-4 font-bold line-clamp-3 md:line-clamp-none">
+              <h4 className="heading-5 2xl:heading-4 font-bold line-clamp-3 md:line-clamp-none">
                 {topBlogs[0].title}
               </h4>
-              <p className="body-text md:subtitle-text mt-2 text-secondary-foreground line-clamp-4 md:line-clamp-none">
+              <p className="body-text 2xl:subtitle-text mt-2 text-secondary-foreground line-clamp-4 md:line-clamp-none">
                 {topBlogs[0].overview}
               </p>
             </div>
             <div className="flex-1 flex items-end justify-between">
               <div className="space-y-0.5">
-                <p className="capitalize label-text  md:body-text text-secondary-foreground">
+                <p className="capitalize label-text 2xl:body-text text-secondary-foreground">
                   <span className="font-semibold">Author:</span>{" "}
                   {topBlogs[0]?.author?.name}
                 </p>
-                <p className="body-text text-secondary-foreground label-text  md:body-text">
+                <p className="body-text text-secondary-foreground label-text 2xl:body-text">
                   <span className="font-semibold">Published Date:</span>{" "}
                   {formatDateTime(topBlogs[0]?.publishedAt)}
                 </p>
               </div>
               <Link
                 href={`/blogs/${topBlogs[0].slug.current}`}
-                className="btn-primary label-text p-4  md:body-text text-white w-max h-max"
+                className="btn-primary label-text p-4 2xl:body-text text-white w-max h-max"
               >
                 Read More
               </Link>

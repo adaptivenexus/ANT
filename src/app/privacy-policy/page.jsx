@@ -1,7 +1,7 @@
 const PrivacyPolicy = () => {
   return (
     <div>
-      <div className="wrapper max-w-[1600px] py-10 space-y-10 subtitle-text">
+      <div className="wrapper max-w-[1280px] 2xl:max-w-[1600px] py-10 space-y-10 subtitle-text">
         <h4 className="heading-4">Privacy Policy</h4>
 
         <ul className="list-disc ml-4 space-y-4">

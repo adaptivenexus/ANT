@@ -8,6 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
+import { MdMailOutline, MdOutlinePhoneInTalk } from "react-icons/md";
 
 const Footer = () => {
   const logos = [
@@ -115,7 +116,7 @@ const Footer = () => {
               <div className="flex gap-16 flex-col md:flex-row">
                 <div className="flex-1 space-y-6">
                   <div className="subtitle-text space-y-5">
-                    <h6 className="font-semibold text-white">Pages</h6>
+                    <h6 className="font-semibold text-white">Quick Links</h6>
                     <nav className="space-y-14">
                       <ul className="text-[#95909B] space-y-2">
                         <li>
@@ -162,7 +163,9 @@ const Footer = () => {
 
                 <div className="flex-1">
                   <div className="subtitle-text space-y-5">
-                    <h6 className="font-semibold text-white">Quick Links</h6>
+                    <h6 className="font-semibold text-white opacity-0">
+                      Quick Links
+                    </h6>
                     <nav className="space-y-14">
                       <ul className="text-[#95909B] space-y-2">
                         <li>
@@ -206,13 +209,21 @@ const Footer = () => {
                     </a>
                   </div>
                 </div>
-                <div className="space-y-10">
+                <div className="space-y-20">
                   <h3 className="heading-3 text-white md:text-end">ANT.</h3>
                   <div className="flex flex-col md:items-end text-[#95909B] gap-5">
-                    <div className="h-[2px] w-12 bg-[#51485C]"></div>
-                    <div className="space-y-3 md:text-end">
-                      <p>(+1)904 800 9254</p>
-                      <p>business@adaptivenexus.com</p>
+                    <div className="space-y-3 md:text-end subtitle-text">
+                      <p className="flex items-center gap-2">
+                        <MdOutlinePhoneInTalk
+                          size={20}
+                          className=" text-white"
+                        />
+                        <span>(904) 800-9254</span>
+                      </p>
+                      <p className="flex items-center gap-2">
+                        <MdMailOutline size={20} className=" text-white" />
+                        <span>business@adaptivenexus.com</span>
+                      </p>
                     </div>
                   </div>
                 </div>

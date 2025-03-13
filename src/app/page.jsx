@@ -11,7 +11,7 @@ import WhyChooseUs from "@/components/Home/WhyChooseUs";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-40">
+    <div className="flex flex-col gap-32">
       <div>
         <Hero />
         <VideoTablet />

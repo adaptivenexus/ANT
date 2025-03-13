@@ -1,7 +1,7 @@
 const TermsAndConditions = () => {
   return (
     <div>
-      <div className="wrapper max-w-[1600px] py-10 space-y-10 subtitle-text">
+      <div className="wrapper max-w-[1280px] 2xl:max-w-[1600px] py-10 space-y-10 subtitle-text">
         <div className="space-y-4">
           <h4 className="heading-4">Terms & Conditions</h4>
           <p className="">

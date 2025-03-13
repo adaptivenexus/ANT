@@ -32,7 +32,7 @@ const About = () => {
   ];
 
   return (
-    <div id="about" className="py-24">
+    <div id="about" className="pt-24">
       <div className="wrapper space-y-16">
         <div className="space-y-6">
           <p className="heading-top text-primary">About us</p>

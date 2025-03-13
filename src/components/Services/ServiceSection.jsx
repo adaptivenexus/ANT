@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { motion } from "framer-motion";
 
 const ServiceSection = ({ image, orientation, title, list }) => {
-  const { theme, setTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   const variants = {
     hidden: {
