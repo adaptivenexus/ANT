@@ -1,8 +1,6 @@
 import MainBlogCard from "./MainBlogCard";
 import { client } from "@/lib/sanity";
 import { groq } from "next-sanity";
-import CarouselBlogs from "./CarouselBlogs";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { formatDateTime } from "@/lib/utils";

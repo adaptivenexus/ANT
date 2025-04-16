@@ -25,6 +25,9 @@ const SpecificBlog = async ({ blogs }) => {
         <h1 className="text-xl font-semibold text-start text-primary">Blog</h1>
         <div className="flex items-center gap-5">
           <p className="font-semibold">
+            Author: <span className="font-normal">{blogs?.author?.name}</span>
+          </p>
+          <p className="font-semibold">
             Category:{" "}
             <span className="font-normal">{blogs?.categories[0].title}</span>
           </p>

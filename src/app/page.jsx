@@ -1,5 +1,5 @@
 import About from "@/components/Home/About";
-import CaseStudies from "@/components/Home/CaseStudies";
+// import CaseStudies from "@/components/Home/CaseStudies";
 import FAQ from "@/components/Home/FAQ";
 import Hero from "@/components/Home/Hero";
 import OurServices from "@/components/Home/OurServices";
@@ -8,6 +8,23 @@ import RecentBlogs from "@/components/Home/RecentBlogs";
 import Testimonials from "@/components/Home/Testimonials";
 import VideoTablet from "@/components/Home/VideoTablet";
 import WhyChooseUs from "@/components/Home/WhyChooseUs";
+
+export const metadata = {
+  title: "Adaptive Nexus Technologies",
+  description:
+    "Innovative solutions driving digital transformation and empowering businesses worldwide.",
+  keywords: [
+    "Adaptive Nexus",
+    "AI Solutions",
+    "Data Analytics",
+    "LLM",
+    "NLP",
+    "Digital Transformation",
+    "Business Intelligence",
+    "Automation",
+    "Data Security",
+  ],
+};
 
 const Home = () => {
   return (

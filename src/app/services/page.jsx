@@ -1,5 +1,12 @@
 import ServiceSection from "@/components/Services/ServiceSection";
 
+// metadata title
+export const metadata = {
+  title: "Services | Adaptive Nexus Technologies",
+  description:
+    "Discover our AI-driven services, including product development, generative AI solutions, process automation, data strategy, and more.",
+};
+
 const ServicesPage = () => {
   const servicesData = [
     {

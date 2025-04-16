@@ -1,3 +1,22 @@
+// MetaData title and openGraph
+export const metadata = {
+  title: "Terms & Conditions | Adaptive Nexus Technologies",
+  description:
+    "Terms and Conditions for using Adaptive Nexus Technologies services.",
+  keywords: [
+    "Terms and Conditions",
+    "Terms of Service",
+    "User Agreement",
+    "Service Terms",
+    "Legal Agreement",
+    "User Terms",
+    "Website Terms",
+    "Service Agreement",
+    "User Policy",
+    "Legal Terms",
+  ],
+};
+
 const TermsAndConditions = () => {
   return (
     <div>

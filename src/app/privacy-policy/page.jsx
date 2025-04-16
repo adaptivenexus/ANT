@@ -1,4 +1,13 @@
+export const metadata = {
+  title: "Privacy Policy | Adaptive Nexus Technologies",
+  keywords: ["Privacy Policy", "Data Protection"],
+  description:
+    "Adaptive Nexus Technologies respects your privacy and is committed to protecting your personal information.",
+};
+
 const PrivacyPolicy = () => {
+  // metadata title
+
   return (
     <div>
       <div className="wrapper max-w-[1280px] 2xl:max-w-[1600px] py-10 space-y-10 subtitle-text">

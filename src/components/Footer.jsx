@@ -174,11 +174,6 @@ const Footer = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link href={"/#casestudies"} className="">
-                            Case Studies
-                          </Link>
-                        </li>
-                        <li>
                           <Link href={"/terms-and-conditions"} className="">
                             Terms and Conditions
                           </Link>

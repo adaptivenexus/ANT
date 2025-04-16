@@ -24,16 +24,17 @@ async function getData(slug) {
   );
 }
 
-// export async function generateMetadata({ params }) {
-//   // fetch data
-//   const blogs = await getData((await params).slug);
+export async function generateMetadata({ params }) {
+  // fetch data
+  const blogs = await getData((await params).slug);
 
-//   // optionally access and extend (rather than replace) parent metadata
+  // optionally access and extend (rather than replace) parent metadata
 
-//   return {
-//     title: `${blogs.title} `,
-//   };
-// }
+  return {
+    title: `${blogs.title} `,
+    description: `${blogs.body.slice(0, 145)}...`,
+  };
+}
 
 const BlogSpecific = async ({ params }) => {
   const blogs = await getData((await params).slug);

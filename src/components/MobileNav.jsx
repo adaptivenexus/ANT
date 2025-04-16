@@ -68,7 +68,7 @@ const MobileNav = ({ isNavOpen, setIsNavOpen }) => {
         </li>
       </ul>
 
-      <h2 className="heading-4 text-foreground text-center">LOGO.</h2>
+      <h2 className="heading-4 text-foreground text-center">ANT.</h2>
 
       <button
         onClick={() => setIsNavOpen(false)}
