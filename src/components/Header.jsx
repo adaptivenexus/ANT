@@ -62,6 +62,20 @@ const Header = () => {
             </li>
             <li>
               <Link
+                href={"/make-payment"}
+                className={`relative w-max ${
+                  pathname === "/make-payment"
+                    ? "underlineOpen text-white"
+                    : "underlineHover text-white"
+                }`}
+              >
+                <span>Make Payment</span>
+                <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-[2px] bg-white"></span>
+                <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-[2px] bg-white"></span>
+              </Link>
+            </li>
+            <li>
+              <Link
                 href={"/services"}
                 className={`relative w-max ${
                   pathname === "/services"

@@ -13,7 +13,8 @@ const FAQ = () => {
         "The implementation time varies depending on the complexity of the project. Typically, it can take anywhere from a few weeks to several months.",
     },
     {
-      question: "Do you provide ongoing support after implementing AI solutions?",
+      question:
+        "Do you provide ongoing support after implementing AI solutions?",
       answer:
         "Yes, we offer continuous support and maintenance to ensure your AI solutions remain up-to-date and perform optimally.",
     },
