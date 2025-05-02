@@ -9,6 +9,7 @@ import {
   FaTags,
 } from "react-icons/fa";
 import { IoCloseOutline } from "react-icons/io5";
+import { MdPayment } from "react-icons/md";
 
 const MobileNav = ({ isNavOpen, setIsNavOpen }) => {
   return (
@@ -45,6 +46,15 @@ const MobileNav = ({ isNavOpen, setIsNavOpen }) => {
           <FaBook className="text-primary" />
           <Link href="/services" className="text-xl">
             Services
+          </Link>
+        </li>
+        <li
+          onClick={() => setIsNavOpen(false)}
+          className="flex gap-2 items-center"
+        >
+          <MdPayment className="text-primary" />
+          <Link href="/make-payment" className="text-xl">
+            Make a Payment
           </Link>
         </li>
 
